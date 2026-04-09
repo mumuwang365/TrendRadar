@@ -77,6 +77,17 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
+  # === 社交/短视频/娱乐类 ===
+    - id: "weibo"
+      name: "微博"
+    - id: "douyin"
+      name: "抖音"
+    - id: "bilibili-hot-search"
+      name: "bilibili 热搜"
+    - id: "tieba"
+      name: "贴吧"
+    - id: "zhihu"
+      name: "知乎"
 
 
 
@@ -332,7 +343,7 @@ notification:
     email:
       from: ""                        # 发件人邮箱地址
       password: ""                    # 发件人邮箱密码或授权码
-      to: ""                          # 收件人邮箱，多个用逗号分隔
+      到: ""                          # 收件人邮箱，多个用逗号分隔
       smtp_server: ""                 # SMTP 服务器（可选，留空自动识别）
       smtp_port: ""                   # SMTP 端口（可选，留空自动识别）
 
@@ -587,7 +598,7 @@ advanced:
   # 以下为内部参数（一般无需修改）
   # 消息分批大小（字节）- 内部配置，请勿修改
   batch_size:
-    default: 4000
+    默认: 4000
     dingtalk: 20000
     feishu: 30000
     bark: 4000
